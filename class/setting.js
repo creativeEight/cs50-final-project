@@ -92,25 +92,8 @@ const createCourseCard = (course) => {
     let button = document.createElement("a");
     button.className = "btn btn-primary d-block";
     button.innerHTML = "Register Now";
-    button.href = "/home";
+    button.href = "/cs50-final-project/home";
     card_body2.appendChild(button);
 }
 
-{
-    /* <div class="card me-2 mb-2" style="width: max(18rem,20%);">
-                <img src="../assets/class/python.png" class="card-img-top" alt="Python">
-                <div class="card-body">
-                  <h5 class="card-title">PY01: Python Programming</h5>
-                  <p class="card-text">Unlock the power of programming with CR8's Python class and write beautiful, creative code!</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><i class="fa-regular fa-calendar me-2"></i> Every Saturday (Ongoing)</li>
-                  <li class="list-group-item"><i class="fa-regular fa-clock me-2"></i> 8:00pm - 10:00pm</li>
-                  <li class="list-group-item"><i class="fa-solid fa-chalkboard-user me-2"></i>Chris Lim</li>
-                </ul>
-                <div class="card-body">
-                  <a href="/home" class="btn btn-primary d-block">Register Now</a>
-                </div>
-              </div> */
-  }
 getCourseDB();
