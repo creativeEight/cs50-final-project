@@ -1,0 +1,29 @@
+.title{
+    font-family: 'Righteous', cursive;
+}
+.navigation{
+    border-top: 2px solid #6d6d6d;
+    border-bottom: 2px solid #6d6d6d;
+}
+.navigation a{
+    color: #424242;
+}
+.navigation a:hover{
+    color: #1b1b1b;
+    font-family: 'Righteous', cursive;
+}
+
+.navigation .active{
+    color: #1b1b1b;
+    font-family: 'Righteous', cursive;
+}
+
+.d-md-cell{
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    .d-md-cell{
+        display: table-cell;
+    }
+}

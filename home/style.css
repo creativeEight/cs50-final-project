@@ -1,0 +1,73 @@
+.title{
+    font-family: 'Righteous', cursive;
+}
+.navigation{
+    border-top: 2px solid #6d6d6d;
+    border-bottom: 2px solid #6d6d6d;
+}
+.navigation a{
+    color: #424242;
+}
+.navigation a:hover{
+    color: #1b1b1b;
+    font-family: 'Righteous', cursive;
+}
+
+.navigation .active{
+    color: #1b1b1b;
+    font-family: 'Righteous', cursive;
+}
+.btn-primary{
+    background-color: #424242;
+    border: none;
+    outline: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #1b1b1b ;
+    border: none;
+    outline: none;
+}
+
+.btn-primary:focus{
+    box-shadow: 0 0 0 0.15rem rgb(66 66 66 / 20%);
+}
+
+.btn-primary.active:focus,
+.btn-primary:active:focus{
+    box-shadow: 0 0 0 0.15rem rgb(66 66 66 / 50%);
+}
+
+.hero h1{
+    font-family: 'Righteous', cursive;
+}
+
+span{
+    display: none;
+}
+
+.p-800{
+    display: none;
+}
+.p-100{
+    display: block;
+}
+
+
+@media screen and (min-width: 1200px) {
+    span {
+      display: block;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .p-800{
+        display: block;
+    }
+    .p-100{
+        display: none;
+    }
+
+}
